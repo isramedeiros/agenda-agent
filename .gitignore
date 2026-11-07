@@ -1,0 +1,19 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+credentials/*.json
+
+# Virtual environments & Python cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Generated artifacts & local state
+qrcode.png
+live_qr.html
+*.log
+.antigravity/
+.DS_Store
